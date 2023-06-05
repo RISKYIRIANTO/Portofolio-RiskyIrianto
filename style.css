@@ -1,0 +1,473 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  color: black;
+}
+
+header {
+  height: 75px;
+}
+
+header h1 {
+  display: inline-block;
+  padding: 19px 23px;
+}
+
+header h1 a:hover {
+  color: #ecb365;
+}
+
+header h1 a {
+  transition: 0.3s;
+  color: black;
+}
+
+header ul li a:hover {
+  color: #ecb365;
+}
+
+header ul li a {
+  transition: 0.3s;
+  color: black;
+}
+
+header ul {
+  float: right;
+}
+
+header ul li {
+  padding: 27px 17px;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.container {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.mobilemenu {
+  float: right;
+  display: none;
+  padding: 20px;
+}
+
+.mobilemenu :hover {
+  cursor: pointer;
+}
+
+#checkmenu {
+  display: none;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: -140px;
+  width: 140px;
+  background-color: #8d7b68;
+  transition: 0.3s;
+}
+
+.sidebar ul li a {
+  color: #fff;
+}
+
+.copy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #f2f2f2;
+  font-size: 10px;
+  color: #00000088;
+}
+
+.sidebar ul li {
+  padding: 24px;
+  transition: 0.3s;
+  transition-property: background-color;
+}
+
+.sidebar ul li:hover {
+  background-color: #ecb365;
+}
+
+#checkmenu:checked ~ .sidebar {
+  left: 0;
+}
+
+.banner {
+  background-color: #e4dccf;
+}
+
+section {
+  padding: 100px 0px;
+}
+
+.banner img {
+  width: 200px;
+  border-radius: 200px;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 120px;
+}
+
+.banner p {
+  text-align: center;
+  opacity: 70%;
+}
+
+.banner h2 {
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.bawahbanner {
+  padding-top: 10px;
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 15px;
+  padding-bottom: 6px;
+}
+
+.bawahbanner ul li {
+  display: inline-block;
+  color: black;
+  padding: 15px;
+}
+
+.bawahbanner ul li a:hover {
+  color: #ecb365;
+}
+
+.keHome {
+  padding: 1px;
+  margin-left: 133px;
+  padding-bottom: 50px;
+}
+
+/*kembali ke home*/
+
+.keHome .button-home {
+  color: #fff;
+  background-color: #8d7b68;
+  border: none;
+  border-radius: 13px;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.keHome .button-home a {
+  color: #fff;
+}
+
+.keHome .button-home:hover {
+  background-color: #ecb365;
+}
+
+/* about */
+.container-about {
+  padding-top: 4%;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.isiAbout {
+  padding: 30px;
+  margin-left: 88px;
+  margin-right: 88px;
+}
+
+.isiAbout p {
+  margin-left: 20px;
+  padding-top: 1%;
+  line-height: 33px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.container-about img {
+  color: #8d7b68;
+  width: 25px;
+  margin-right: 10px;
+}
+
+/*portofolio*/
+
+.isiol ol {
+  font-size: 30px;
+}
+
+.satukato {
+  margin: 20px;
+  width: 800px;
+  height: auto;
+  box-shadow: 0 2px 4px;
+  margin-bottom: 70px;
+  margin-left: 370px;
+}
+
+.peduli {
+  margin: 20px;
+  width: 800px;
+  height: auto;
+  margin-left: 370px;
+  box-shadow: 0 2px 4px;
+  margin-bottom: 70px;
+}
+
+.beach {
+  width: 1000px;
+  box-shadow: 0 2px 4px;
+  margin-top: 20px;
+  margin-left: 265px;
+  margin-bottom: 50px;
+}
+
+.container-porto {
+  padding-top: 4%;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.urutan {
+  margin-top: 80px;
+  margin-left: 160px;
+}
+.isiPorto {
+  padding: 30px;
+  margin-left: 88px;
+  margin-right: 88px;
+}
+
+.isiPorto p {
+  margin-left: 20px;
+  padding-top: 1%;
+  line-height: 33px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container-porto img {
+  width: 32px;
+  margin-right: 10px;
+}
+
+/*experience*/
+.container-exp {
+  padding-top: 4%;
+  width: 85%;
+  margin: 0 auto;
+}
+.isiExp {
+  margin-left: 88px;
+  margin-right: 88px;
+}
+
+.isiExp p {
+  margin-left: 50px;
+  padding-top: 3%;
+  line-height: 33px;
+  margin-top: 20px;
+}
+
+.container-exp img {
+  width: 38px;
+  margin-right: 10px;
+}
+
+/*contact*/
+.container-contact {
+  padding-top: 4%;
+  width: 85%;
+  margin: 0 auto;
+}
+.isiContact {
+  padding: 30px;
+  margin-left: 88px;
+  padding-top: 80px;
+  margin-right: 88px;
+}
+
+.isiContact p {
+  margin-left: 20px;
+  padding-top: 1%;
+  line-height: 33px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container-contact img {
+  width: 38px;
+  margin-right: 10px;
+}
+
+.speaker {
+  padding: 10px;
+}
+
+.webinar {
+  width: 500px;
+  padding-left: 500px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/*sosmed*/
+
+.isiSosmed {
+  margin-top: 70px;
+  margin-left: 120px;
+  margin-right: 120px;
+  text-align: justify;
+  line-height: 33px;
+}
+
+.listsosmed {
+  margin-left: 20px;
+  margin-bottom: 45px;
+}
+
+.isiSosmed p {
+  margin-bottom: 20px;
+}
+
+/*skill*/
+
+.isiSkill {
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 120px;
+  text-align: justify;
+  line-height: 33px;
+}
+
+.isiSkill p {
+  margin-left: 5px;
+}
+
+/*tambahan portofolio*/
+.klikselengkapnya {
+  font-size: 15px;
+  margin-bottom: 35px;
+  margin-left: 680px;
+}
+
+.klikselengkapnya :hover {
+  color: #ecb365;
+}
+
+/*web satukato*/
+.wssk {
+  width: 1300px;
+  margin-top: 30px;
+  box-shadow: 0 2px 4px;
+}
+
+.teks {
+  margin-left: 300px;
+}
+
+.pteks {
+  margin-left: 350px;
+}
+
+.rwsk {
+  font-size: 200%;
+  margin-top: 70px;
+  margin-left: 600px;
+}
+
+.apl {
+  font-size: 200%;
+  margin-top: 70px;
+  margin-left: 520px;
+}
+
+.wpb {
+  font-size: 200%;
+  margin-top: 70px;
+  margin-left: 500px;
+}
+
+/*contact*/
+
+.kolom {
+  width: 100%;
+  padding: 15px 20px;
+  margin: 15px 0;
+  display: inline-block;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.kirim {
+  width: 100%;
+  background-color: #8d7b68;
+  color: aliceblue;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.kirim :hover {
+  background-color: #ecb365;
+  color: aliceblue;
+}
+
+@media (max-width: 768px) {
+  .mobilemenu {
+    display: block;
+  }
+
+  header ul {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .sidebar {
+    display: block;
+  }
+
+  .sidebar {
+    display: none;
+  }
+}
+
+@media (max-width: 1126px) {
+  .satukato {
+    width: 500px;
+    margin-left: 0px;
+  }
+
+  .peduli {
+    width: 500px;
+    margin-left: 0px;
+  }
+}

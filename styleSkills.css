@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills {
+  width: 100%;
+  max-width: 1100px;
+  padding: 0 20px;
+}
+
+.namaSkill {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.skillBar {
+  height: 14px;
+  background-color: #d8d8d8;
+  border-radius: 7px;
+}
+
+.perSkill {
+  height: 14px;
+  background-color: #ecb365;
+  border-radius: 7px;
+  position: relative;
+}
+.container-semua {
+  width: 85%;
+  margin: 0 auto;
+  border-bottom: 3px solid;
+}
+
+.container-semua {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/*.perSkill::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px;
+    background-color: #d8d8d8;
+    border-radius: 4px;
+    font-size: 12px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+}
+
+.perSkill::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #d8d8d8 ;
+    top: -20px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+}*/
+
+/*kembali ke home*/
+.keHome {
+  padding: 1px;
+}
+
+.keHome .button-home {
+  color: #fff;
+  background-color: #8d7b68;
+  border: none;
+  border-radius: 13px;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.keHome .button-home a {
+  color: #fff;
+}
+
+.keHome .button-home:hover {
+  background-color: #ecb365;
+}
+
+.container-skills {
+  padding-top: 4%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container-skills img {
+  width: 45px;
+  margin-right: 10px;
+}
